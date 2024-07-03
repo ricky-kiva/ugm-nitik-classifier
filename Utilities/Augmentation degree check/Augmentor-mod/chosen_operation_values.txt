@@ -1,0 +1,8 @@
+OK - skew = 0.6
+OK - skew_corner = 0.8
+OK - random_distortion = 10, 10, 8
+OK - rotate = 15
+OK - shear = 15
+OK - crop_resize = 0.6
+
+
