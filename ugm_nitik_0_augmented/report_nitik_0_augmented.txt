@@ -1,0 +1,6 @@
+Accuracy: 0.9942
+Precision: 0.9946
+Recall: 0.9942
+F1-Score: 0.9942
+Elapsed time: 31.78 min
+Model size: 16.60 MB
