@@ -1,0 +1,6 @@
+OK 0. Experiment on Augmentation (use or no) -> use
+OK 1. Experiment on layers (1 or no) (128, 256, 512, 1024) -> no
+OK 2. Experiment on Dropout (0 & 0.2 - 0.5) -> 0.3
+OK 3. Experiment on learning rate (0.01, 0.001 (default), 0.0001) -> 0.0001
+OK 4. Experiment on batch-size (32, 64, 128) -> 64
+OK 5. Experiment on Fine-tuning (no & Block 7-5) ("block7a_expand_conv", "block6a_expand_conv", "block5a_expand_conv") -> no
