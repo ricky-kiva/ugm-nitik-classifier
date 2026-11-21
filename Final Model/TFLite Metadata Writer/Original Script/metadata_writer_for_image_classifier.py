@@ -33,7 +33,7 @@ from tflite_support import metadata as _metadata
 FLAGS = flags.FLAGS
 MODEL_PATH = '../ugm-nitik-60.tflite'
 LABEL_PATH = 'nitik-label.txt'
-OUTPUT_PATH = 'output'
+OUTPUT_PATH = 'Output'
 
 def define_flags():
   flags.DEFINE_string("model_file", None,
