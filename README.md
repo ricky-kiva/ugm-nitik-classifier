@@ -22,14 +22,9 @@ A 60-class image classifier for Batik Nitik motifs, built with transfer learning
 
 ### Evaluation Metrics
 
-| Metric | Value |
-|---|---:|
-| Accuracy | 0.9986 |
-| Precision (macro) | 0.9987 |
-| Recall (macro) | 0.9986 |
-| F1-Score (macro) | 0.9986 |
-| Training time | 50.54 min |
-| Model size (TFLite) | 15.59 MB |
+| Accuracy | Precision | Recall | F1-Score | Training time | Model size |
+|---:|---:|---:|---:|---:|---:|
+| 0.9986 | 0.9987 | 0.9986 | 0.9986 | 50.54 min | 15.59 MB |
 
 ### Accuracy Graph
 
@@ -87,7 +82,5 @@ The notebook expects the source images at `/content/drive/My Drive/Datasets/niti
 | `Final Model/` | Final TFLite model and TFLite metadata writer |
 | `Utilities/` | Dataset augmentation and copy scripts |
 | `Notes/` | Experiment decisions |
-
-<br>
 
 © 2026 Ricky Fadel M. All rights reserved.
