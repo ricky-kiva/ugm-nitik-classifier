@@ -1,4 +1,18 @@
-# Batik Nitik Classifier
+![Batik Nitik Yogyakarta Palace's oldest batik heritage](docs/assets/readme-cover-1-1-c.jpg)
+
+<h1 align="center">Batik Nitik Classification Model</h1>
+
+<p align="center">
+  <a href="https://www.python.org/downloads/release/python-3100/">
+    <img src="https://img.shields.io/badge/Python-3.10-3776AB?logo=python&logoColor=white" alt="Python 3.10">
+  </a>
+  <a href="https://jupyter.org/">
+    <img src="https://img.shields.io/badge/Jupyter_Notebook-4-F37626?logo=jupyter&logoColor=white" alt="Jupyter Notebook 4">
+  </a>
+  <a href="https://www.tensorflow.org/">
+    <img src="https://img.shields.io/badge/TensorFlow-2.15-FF6F00?logo=tensorflow&logoColor=white" alt="TensorFlow 2.15">
+  </a>
+</p>
 
 A 60-class image classifier for Batik Nitik motifs, built with transfer learning from EfficientNetB0. The repository contains 16 recorded experiments.
 
@@ -50,6 +64,8 @@ The trained TFLite artifact is [`ugm_nitik_3_lr_0001/nitik_3_lr_0001.tflite`](ug
 
 ## Dataset
 
+Source dataset: [Batik Nitik 960](https://data.mendeley.com/datasets/sgh484jxzy) by Agus Eko Minarno, Hanung Adi Nugroho, and Indah Soesanti (Mendeley Data, CC BY 4.0). The 13,496-image split below is an augmented/tiled version of the original 960 images.
+
 The dataset contains 13,496 images across 60 Batik Nitik classes, split 75/15/10:
 
 | Split | Images | Share |
@@ -71,3 +87,7 @@ The notebook expects the source images at `/content/drive/My Drive/Datasets/niti
 | `Final Model/` | Final TFLite model and TFLite metadata writer |
 | `Utilities/` | Dataset augmentation and copy scripts |
 | `Notes/` | Experiment decisions |
+
+<br>
+
+© 2026 Ricky Fadel M. All rights reserved.
