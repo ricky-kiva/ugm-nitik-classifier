@@ -3,15 +3,9 @@
 <h1 align="center">Batik Nitik Classification Model</h1>
 
 <p align="center">
-  <a href="https://www.python.org/downloads/release/python-3100/">
-    <img src="https://img.shields.io/badge/Python-3.10-3776AB?logo=python&logoColor=white" alt="Python 3.10">
-  </a>
-  <a href="https://jupyter.org/">
-    <img src="https://img.shields.io/badge/Jupyter_Notebook-4-F37626?logo=jupyter&logoColor=white" alt="Jupyter Notebook 4">
-  </a>
-  <a href="https://www.tensorflow.org/">
-    <img src="https://img.shields.io/badge/TensorFlow-2.15-FF6F00?logo=tensorflow&logoColor=white" alt="TensorFlow 2.15">
-  </a>
+  <a href="https://www.python.org/downloads/release/python-3100/"><img src="https://img.shields.io/badge/3.10-3776AB?logo=python&logoColor=white" alt="Python 3.10"></a>
+  <a href="https://www.tensorflow.org/"><img src="https://img.shields.io/badge/2.15-FF6F00?logo=tensorflow&logoColor=white" alt="TensorFlow 2.15"></a>
+  <a href="https://jupyter.org/"><img src="https://img.shields.io/badge/Jupyter_Notebook-4-F37626?logo=jupyter&logoColor=white" alt="Jupyter Notebook 4"></a>
 </p>
 
 A 60-class image classifier for Batik Nitik motifs, built with transfer learning from EfficientNetB0. The repository contains 16 recorded experiments.
